@@ -1,0 +1,54 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+.description {
+    margin: 0% 30%;
+    font-size: 18px;
+}
+
+.banner-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.ingredients ul, .steps ol {
+    background: gray;
+}
+
+.ingredients ul li, .steps ol li {
+    background-color: lightgray;
+}
+
+.steps ol {
+    list-style-type: upper-roman;
+    font-weight: bold;
+}
+
+.steps ol li p {
+    margin: 0px;
+    font-weight: normal;
+    border: gray solid;
+    border-width: 2px 2px 2px 0px;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    font-size: 30px;
+}
+
+.recipe-list-container {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    font-size: 24px;
+}
+
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+}
